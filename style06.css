@@ -1,0 +1,167 @@
+body { 	background: white;}
+header{	background-color: #000000;
+		height: 150px;
+		color: white;
+		margin: -10px;}
+#logo{
+		margin-top: 30px;
+		margin-left: 25px;
+		width: 150px;
+		height: 80px;}
+nav{		text-align: right;
+		padding-right: 10px;
+		margin-top: -80px;}
+#productsButton{
+		font-size: 20pt;
+		padding-right: 15px;
+		color: white;
+		text-decoration: underline;
+		cursor:pointer;
+		font-family: "Book Antiqua";
+		font-weight: bold;}
+#separator{
+		font-size: 50pt;}
+#cartLogo{
+		padding-top: 20px;
+		width: 70px;
+		height: 60px;
+		cursor: pointer;}
+#headerImage{
+		width: 100%;
+		height: 420px;}
+h2{		margin-top: 450px;
+		color: black;
+		text-align: left;
+		font-family: "Garamond";
+		font-size: 24pt;
+		font-weight: bold;
+		padding-left: 25px;}
+		
+/* Home Page */
+#item1{ width: 150px;
+		height: 170px;}
+#item2{ width: 150px;
+		height: 100px;}
+#item3{ width: 150px;
+		height: 150px;}
+#item4{ width: 130px;
+		height: 100px;}
+#item5{ width: 150px;
+		height: 150px;}
+.itemName{
+		font-size: 16pt;
+		font-family: "Papyrus";
+		font-weight: bold;
+		cursor:pointer;}
+.priceTag{
+		font-size: 14pt;
+		font-weight: bold;
+		font-family: "Papyrus";}
+table{	margin: auto;
+		padding: 0px;
+		border-collapse: collapse;}
+td{		text-align: center;
+		padding: 5px 25px 5px 25px;}
+th{		padding-top: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		margin: 0px;
+		font-size: 16pt;}
+#myform{margin-left: 80%;
+		margin-top: -55px;
+		margin-bottom: 50px;}
+label{   	font-weight: bold;
+		font-size: 16pt;}
+		
+/* Details Page */
+.price{	border: 1px solid black;
+		width: 125px;
+		border-radius: 5px;
+		margin-left: 25px;
+		margin-top: -5px;
+		text-align: center;
+		padding: 5px;}
+.itemPicture{
+		width: 250px;
+		height: 270px;
+		margin-left: 25px;
+		margin-top: 25px;}
+.desc{	margin-left: 28%;
+		margin-right: 100px;
+		margin-top: -250px;
+		border: 1px solid black;
+		padding: 25px 50px 25px 50px;
+		border-radius: 25px;
+		font-family: "Century Gothic";}
+#addToCart{
+		border: 1px solid black;
+		padding: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		color: white;
+		margin-left: 25px;
+		background-color: black;
+		border-radius: 10px;
+		font-weight: bold;
+		text-align: center;
+		cursor:pointer;}
+h5{		margin-left: 25px;
+		margin-top: -25px;}
+		
+/* Shopping cart page*/
+h1{		margin-top: 450px;
+		margin-left: 50px;
+		font-family: "Garamond";}
+.priceCart{
+		text-align: center;
+		padding: 5px;
+		font-size: 14pt;
+		font-weight: bold;
+		font-family: "Trebuchet MS";}
+.nameCart{
+		font-size: 14pt;
+		font-weight: bold;
+		font-family: "Papyrus";}
+#delete{
+		font-size: 12pt;}
+input[type="number"]{
+		text-align: center;
+		width: 50px;
+		cursor:pointer;}
+#checkOutButton{
+		border: 1px solid black;
+		color: white;
+		background-color: black;
+		padding: 10px;
+		padding-left: 25px;
+		padding-right: 25px;
+		font-weight: bold;
+		border-radius: 5px;}
+input[type="number"]{
+		height: 20px;
+		width: 50px;
+		font-size: 12pt;
+		border-radius: 5px;}
+button{	border-radius: 5px;
+		cursor: pointer;
+		background-color: #999999;
+		color: white;}
+button:hover{	
+		opacity: .75;
+		text-decoration: underline;}
+.orderSummary{
+		margin-right: 50%;
+		padding-top: 10px;
+		padding-bottom: 25px;
+		background-color: #EEE9E9;}
+th{ font-family: "Trebuchet MS";}
+		
+a:link{	color: #000000;
+		text-decoration: none;}
+a:hover{
+		opacity: .80;
+		text-decoration: underline;}
+a:active{
+		color: black;}
+a:visited{
+		color: black;}
